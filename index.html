@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday ya bobby❤️✨</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Reem+Kufi:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="hearts-container" id="heartsContainer"></div>
+
+    <section class="page active" id="page1">
+        <div class="card welcome-card">
+            <div class="profile-frame">
+                <img src="habiba.jpg" alt="Bobby" class="profile-img">
+            </div>
+            <h1>كل سنة وأنتي طيبة يا حبيبة 🎉❤️</h1>
+            <p class="intro-text">مش معقول بجد ما شاء الله وردة شايلة ورد ما شاء الله عليكي🙄🤩❤️❤️❤️❤️❤️❤️</p>
+            <button class="btn" onclick="nextPage(2)">تعالي نشوف next page بتقول ايه 😂❤️</button>
+        </div>
+    </section>
+
+    <section class="page" id="page2">
+        <div class="card text-center">
+            <h2>تفتكري أنا بحبك بجد ولا لأ؟ 🤔❤️</h2>
+            <div class="btn-group">
+                <button class="btn btn-secondary" id="runaway-btn">بصراحة مش متأكد أوي لسة 🙄</button>
+                <button class="btn btn-primary" onclick="nextPage(3)">أكيد طبعاً مبحبش غيرك أنتي وبس 🙃❤️❤️❤️</button>
+            </div>
+            <p id="escape-message" class="escape-msg"></p>
+        </div>
+    </section>
+
+    <section class="page" id="page3">
+        <div class="card">
+            <h2>طب تفتكري بحبك قد إيه؟ 🧐</h2>
+            <p class="instruction">جربي تخمني كدا طيب! نشوف هتعرفي تجيبيها صح من اول مرة ولا لا</p>
+            
+            <div class="slider-container">
+                <input type="range" id="loveSlider" min="0" max="100" value="20" class="slider">
+                <div class="slider-val"><span id="sliderValue">20</span>%</div>
+            </div>
+
+            <div class="comment-box" id="loveComment">start guessing 🫠</div>
+            
+            <button class="btn invisible" id="sliderNextBtn" onclick="nextPage(4)">next page?!🙄.. let's see </button>
+        </div>
+    </section>
+
+    <section class="page" id="page4">
+        <div class="card text-center">
+            <h1 class="fade-in-text gold-text">Happy Birthday to the most special girl to me 🎂🎈</h1>
+            <p class="fade-in-text delay-1 slow-text">You mean to me more than words can describe.. ✨</p>
+            <button class="btn" onclick="nextPage(5)">نشوف اخر حاجة بقا عشان شكلك زهقتي😂😂</button>
+        </div>
+    </section>
+
+    <section class="page" id="page5">
+        <div class="card final-card">
+           
+            <div class="interactive-final-text">
+                <p class="reveal-text">أنتي أجمل وأحلى حد أنا قابلته وعرفته في حياتي بجد.. ربنا ميحرمنيش أبداً من النعمة دي ونكون مع بعض في الحلال إن شاء الله قريب ❤️❤️✨</p>
+                <h2 class="crown-text">يا تاج راسي 😉😂❤️❤️❤️❤️❤️❤️❤️❤️</h2>
+            </div>
+            
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
