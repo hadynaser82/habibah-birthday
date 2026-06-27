@@ -90,6 +90,7 @@ body {
     height: 100%;
     object-fit: contain; 
     background-color: #fff;
+}
 
 .final-photo-container {
     width: 180px;
